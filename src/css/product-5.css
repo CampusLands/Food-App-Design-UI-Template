@@ -56,8 +56,15 @@ header{
     font-size: 14px;
     line-height: 28px;
 }
-.progress{
+.barra{
     padding-left: 30px;
+}
+.slider{
+    width: 160px;
+    height: 7px;
+    /*appearance: none;*/
+    /*background-color: var(--color-3);*/
+    border-radius: 5px;
 }
 .mild{
     padding-top: 5px;
@@ -73,5 +80,38 @@ header{
     color: var(--color-3);
     font-family: "Roboto-Medium";
     font-size: 12px;
+}
+.portion{
+    padding-top: 55px;
+    padding-left: 30px;
+    font-family: "Roboto-Medium";
+    font-size: 12px;
+}
+.button__minus{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: var(--color-4);
+    border: none;
+}
+.button__add{
+    padding-top: 10px;
+    padding-left: 45px;
+    background-color: var(--color-4);
+    border: none;
+}
+.main .input__number{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+
+}
+.main .input__number input[type="number"]{
+    width: 45px;
+    height: 30px;
+    font-size: 20px;
+    padding: 1px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
 }
 /**************** Header ****************/
