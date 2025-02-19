@@ -1,0 +1,26 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-4);
+}
+/**************** Header ****************/
+header{
+    /*background-color: var(--color-1);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.back__button{
+    background-color: var(--color-4);
+    border: none;
+}
+.search__button{
+    background-color: var(--color-4);
+    border: none;
+}
+/**************** Header ****************/
