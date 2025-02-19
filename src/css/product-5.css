@@ -9,7 +9,7 @@ body{
 }
 /**************** Header ****************/
 header{
-    /*background-color: var(--color-1);*/
+    /*background-color: var(--color-1)*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,9 +18,36 @@ header{
 .back__button{
     background-color: var(--color-4);
     border: none;
+    padding: 1px 1px;
 }
 .search__button{
     background-color: var(--color-4);
     border: none;
+    padding: 1px 1px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_main{
+    display: flex;
+}
+.section__images{
+    padding: 25px 25px 0px 0px;
+    background-color: var(--color-4);
+
+}
+.section__description{
+    padding-top: 15px;
+    padding-left: 40px;
+    background: var(--color-4);
+    font-family: "Roboto-Regular";
+    line-height: 25px;
+    font-size: 14px;
+}
+.section__description strong{
+    font-family: "Roboto-SemiBold";
+    font-size: 16px;
 }
 /**************** Header ****************/
