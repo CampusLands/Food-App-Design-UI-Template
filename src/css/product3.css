@@ -1,18 +1,45 @@
 @import url(variables.css);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+.header{
 
-header{
-
-    padding:28px 19px 0px;
     display: flex;
     justify-content: space-between;
-}
-.header__titulo{
+    align-items: center;
 
-    display: flex;
-    flex-direction: column;
+
 }
+
+.back{ 
+    padding:12px 22px
+
+
+}
+.search { 
+    padding:12px 22px
+}
+
+.burger {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    width: 400px;
+    height: auto; 
+
+}
+
+
+.letter {
+    font-family: "Roboto-SemiBold";
+    text-align: left;  
+    font-weight: bold; 
+    margin-top: 16px; 
+    color: #3C2F2F; 
+    padding-left: 19px;
+}
+
+
