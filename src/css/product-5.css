@@ -23,25 +23,24 @@ header{
 .search__button{
     background-color: var(--color-4);
     border: none;
-    padding: 1px 1px;
+    padding: 1px;
 }
 .main{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.container_main{
+.main .container_main{
     display: flex;
 }
 .section__images{
-    padding: 25px 25px 0px 0px;
+    padding: 25px 22px 0px 0px;
     background-color: var(--color-4);
 
 }
 .section__description{
     padding-top: 15px;
-    padding-left: 40px;
-    background: var(--color-4);
+    padding-left: 30px;
     font-family: "Roboto-Regular";
     line-height: 25px;
     font-size: 14px;
@@ -49,5 +48,30 @@ header{
 .section__description strong{
     font-family: "Roboto-SemiBold";
     font-size: 16px;
+}
+.spicy{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Roboto-Medium";
+    font-size: 14px;
+    line-height: 28px;
+}
+.progress{
+    padding-left: 30px;
+}
+.mild{
+    padding-top: 5px;
+    padding-left: 30px;
+    color: var(--color-11);
+    font-family: "Roboto-Medium";
+    font-size: 12px;
+
+}
+.hot{
+    margin-top: -13px;
+    padding-left: 170px;
+    color: var(--color-3);
+    font-family: "Roboto-Medium";
+    font-size: 12px;
 }
 /**************** Header ****************/
