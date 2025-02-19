@@ -20,50 +20,79 @@
     </header>
 
 <!--************main************-->
-    <main>
-        <section class ="main_section">
-            <h1 class="main_section_title">Order Summary</h1>
-            
-            <div class="order-item">
-                <span>Order</span>
-                <span>$16.48</span>
-            </div>
+<main>
+    <section class="main_section">
+        <h1 class="main_section_title">Order Summary</h1>
 
-            <div class="order-item">
-                <span>taxes</span>
-                <span>$0.3</span>
-            </div>
+        <div class="order-item">
+            <span>Order</span>
+            <span>$16.48</span>
+        </div>
 
-            <div class="order-item">
-                <span>Delivery fees</span>
-                <span>$1.5</span>
-            </div>
-            <hr class = "hr">
+        <div class="order-item">
+            <span>Taxes</span>
+            <span>$0.3</span>
+        </div>
 
-            <div class="order-item-total">
-                <span>Total:</span>
-                <span>$18.19</span>
-            </div>
+        <div class="order-item">
+            <span>Delivery fees</span>
+            <span>$1.5</span>
+        </div>
 
-            <div class="order-item-tiempo">
-                <span>Estimated delivery time:</span>
-                <span>15 - 30mins   </span>
-            </div>
-        </section>
-        <section class ="payment_section">
-            <h1 class="payment_tittle">Payment methods</h1>
-            <button class="payment_button">
-                <img src="../src/storage/img/mastercard.png">
-                <div>
-                    <span>credit card</span>
-                    
-                    <span>5105 **** **** 0505</span>
+        <hr class="hr">
 
-    </main>
+        <div class="order-item-total">
+            <span>Total:</span>
+            <span>$18.19</span>
+        </div>
+
+        <div class="order-item-tiempo">
+            <span>Estimated delivery time:</span>
+            <span>15 - 30 mins</span>
+        </div>
+    </section>
+
+    <section class="payment_section">
+        <h1 class="payment_tittle">Payment methods</h1>
+
+        <button class="payment_button">
+            <img src="../src/storage/img/mastercard.png" alt="MasterCard">
+            <div>
+                <span>Credit card</span>
+                <span>5105 **** **** 0505</span>
+            </div>
+            <label class="custom_checkbox">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </button>
+
+        <button class="payment_button">
+            <img src="../src/storage/img/visa.png" alt="Visa">
+            <div>
+                <span>Debit card</span>
+                <span>5105 **** **** 0505</span>
+            </div>
+            <label class="custom_checkbox">
+                <input type="checkbox" name="payment_method">
+                <span class="checkmark"></span>
+            </label>
+        </button>
+
+        <label class="custom_checkbox">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            Save card details for future payments
+        </label>
+    </section>
+</main>
+
+
 
 <!--************footer************-->
     <footer>
-        
+        <section class="footer section">
+            
 
 
 
@@ -71,7 +100,7 @@
 
 
 
-    
+        </section>
     </footer>
 </body>
 </html>
