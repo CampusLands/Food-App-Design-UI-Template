@@ -1,0 +1,56 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/******************************* header ************************/
+header{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.back__button{
+    background-color: transparent; 
+    border: none;
+    padding: 11px;
+
+    
+    
+
+}
+.back__button img{
+    width: 20px;  
+}
+
+.search__button{
+    background-color: transparent; 
+    border: none;
+    padding: 11px; 
+}
+.search__button img{
+    width: 20px;
+}
+
+/******************************* main ************************/
+.main_image{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+
+.div_image{
+    width: 370%;
+    height: 370%;
+    filter: drop-shadow(0px 28px 20px rgba(0, 0, 0, 0.5));
+}
