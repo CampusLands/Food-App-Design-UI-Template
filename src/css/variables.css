@@ -23,3 +23,23 @@
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
 }
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter-medium";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-semibold";
+    src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
+}
