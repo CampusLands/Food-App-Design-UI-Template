@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    font-family: "Roboto-SemiBold";
 
 }
 
@@ -34,10 +34,10 @@
 
 
 .letter {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto-semiBold";
     text-align: left;
     font-weight: bold; 
-    margin-top: 16px; 
+    margin-top: 25px; 
     color: #3C2F2F; 
     padding-left: 19px;
 }
