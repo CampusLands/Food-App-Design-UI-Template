@@ -4,3 +4,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    /* background-color: var(--color-7); */
+}
+/************* Header *************/
+header{
+    background: linear-gradient(165deg, var(--color-2), var(--color-3));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header__splash{
+    /* background-color: var(--color-11); */
+    display: flex;
+    margin-top: 200px;
+}
+.header__splash h1{
+    font-family: Lobster-Regular;
+    font-size: 60px;
+    font-weight: normal;
+    color: var(--color-4);
+}
