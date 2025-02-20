@@ -18,6 +18,8 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+
+    --color-shadow-1: hsla(0, 0%, 0%, 0.150);
 }
 @font-face {
     font-family: "Lobster-Regular";
@@ -26,4 +28,12 @@
 @font-face {
     font-family: "Poppins-Medium";
     src: url(../storage/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Medium";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }
