@@ -29,6 +29,7 @@
 .spicy{
     padding-top: 40px;
     display: flex;
+    margin-top: -45px;
 }
 
 .slider-container {
@@ -131,6 +132,7 @@
     border-radius: 15px; 
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: -100px;
 }
 
 .order-button {
@@ -143,6 +145,7 @@
     border-radius: 15px;
     cursor: pointer;
     box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: -100px;
 
 }
 
