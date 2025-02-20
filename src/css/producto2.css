@@ -72,3 +72,8 @@ body {
     color: var(--color-5)
      5px
 }
+
+.rating-time {
+    font-size: 14px;
+    color: var(--color-5)
+}
