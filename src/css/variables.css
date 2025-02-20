@@ -20,6 +20,18 @@
     --color-19: #F3F4F6;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Inter_18pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Regular.ttf);
 }
