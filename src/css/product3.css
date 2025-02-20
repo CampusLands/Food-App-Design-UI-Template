@@ -23,23 +23,5 @@
     padding:12px 22px
 }
 
-.burger {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%;
-    width: 400px;
-    height: auto; 
-
-}
-
-
-.letter {
-    font-family: "Roboto-SemiBold";
-    text-align: left;  
-    font-weight: bold; 
-    margin-top: 16px; 
-    color: #3C2F2F; 
-    padding-left: 19px;
-}
 
 
