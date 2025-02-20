@@ -7,7 +7,7 @@
 
 
 body{
-    background-color: var(--color-20);
+    background-color: var(--color-10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,5 +21,38 @@ body{
     height: 400px; /* Ajusta el tamaño de la caja */
     background-color: var(--color-4);
     border-radius: 15px;
-    box-shadow: 0px 19px 47px -8px rgba(0, 0, 0, 0.3); /* Sombra suave */;
 }
+
+.imagen{
+    text-align: center;
+    
+    }
+    
+    img{
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    h1{
+        /*background-color: pink;*/
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Poppins-Bold";
+        color: var(--color-3);
+    }
+    
+    p{
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        font-family: "Roboto-regular";
+        padding: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+        line-height: 1.5;
+        margin:center;
+        color: var(--color-10);
+    }
+    

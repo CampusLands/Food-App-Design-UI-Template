@@ -18,8 +18,17 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-SemiBold";
+    src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
 }
