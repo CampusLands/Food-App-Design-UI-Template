@@ -11,6 +11,7 @@
 
 .img1, .img2{
     width: 50px;
+    margin-top: -6px;
 }
 
 .sombra_burger{
@@ -24,6 +25,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+
 }
 
 .spicy{
@@ -38,6 +40,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 
 
 }
@@ -45,9 +48,10 @@
 .spicy-slider {
     width: 100%;
     height: 8px;
-    background: #f0f0f0;
+    background: #e5e6de;
     border-radius: 5px;
     outline: none;
+   
 }
 .spicy-slider::-webkit-slider-thumb {
     width: 16px;
@@ -55,6 +59,7 @@
     background-color: red;
     border-radius: 50%;
     cursor: pointer;
+    
 }
 
 .spicy-labels {
@@ -64,6 +69,7 @@
     margin-top: 2px;
     font-size: 12px;
     font-weight: bold;
+
 }
 
 .mild-label {
@@ -80,6 +86,7 @@
     gap: 8px;
     position: absolute;
     right: 10px;
+   
 }
 
 .portion-label {
@@ -202,3 +209,4 @@
     color: #6A6A6A; 
     padding-left: -220px;
 }
+
