@@ -9,7 +9,7 @@ body{
 }
 /************* Header *************/
 header{
-    background: linear-gradient(165deg, var(--color-2), var(--color-3));
+    background: linear-gradient(165deg, var(--color-2),30%, var(--color-3));
     height: 100vh;
     display: flex;
     align-items: center;
@@ -26,4 +26,25 @@ header{
     font-size: 60px;
     font-weight: normal;
     color: var(--color-4);
+}
+
+.flex {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.Hamburgesa-1{
+    height: 230px;
+    top: 0px;
+    filter: drop-shadow(0px 0px 10px var(--color-1));
+}
+.Hamburgesa-2{
+    position: relative;
+    right: 65px;
+    height: 160px;
+    top: 70px;
+    filter: drop-shadow(0px 3px 20px var(--color-1));
 }
