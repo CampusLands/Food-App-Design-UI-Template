@@ -5,11 +5,10 @@
     box-sizing: border-box;
     font-family : "Inter_18pt-Regular";
 }
-
 .header_container{
+    /*background-color: aqua;*/
     height: 60px;
 }
-
 .button_1{
     position: relative;
     width: 28px;
@@ -140,6 +139,7 @@
     border: 2px solid black;
 }
 
+
 .custom_checkbox input:checked + .checkmark {
     background-color: white; 
     border: 2px solid black;
@@ -156,3 +156,4 @@
     transform: translate(-50%, -50%);
     
 }
+
