@@ -34,3 +34,10 @@ header img:first-child {
 header img:last-child {
     padding: 28px 19px 0;
 }
+
+main .section_product_image{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 59px 35px 55.5px 23px ; 
+}
