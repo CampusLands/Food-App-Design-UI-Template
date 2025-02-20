@@ -18,6 +18,7 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+    --color-20: hsl(0, 0%, 80%);
 }
 @font-face {
     font-family: "Poppins-Bold";
