@@ -127,25 +127,26 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 15px; 
     cursor: pointer;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-    margin-top: -100px;
+    margin-top: -50px;
 }
 
 .order-button {
     background-color: #332826; 
     color: white;
     border: none;
-    padding: 10px 30px;
-    font-size: 22px;
+    padding: 30px 20px;
+    font-size: 15px;
+    width: 220px;
     font-weight: bold;
     border-radius: 15px;
     cursor: pointer;
     box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.2); 
-    margin-top: -100px;
+    margin-top: -50px;
 
 }
 
