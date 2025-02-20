@@ -30,14 +30,14 @@ body{
     }
     
     img{
-        margin-top: 20px;
+        margin-top: 26px;
         max-width: 100%;
         height: auto;
     }
     
     h1{
         /*background-color: pink;*/
-        margin-top: 20px;
+        margin-top: 28px;
         font-size: 30px;
         text-align: center;
         font-family: "Poppins-Bold";
@@ -49,10 +49,10 @@ body{
         font-size: 13px;
         position: relative;
         font-family: "Roboto-regular";
-        padding: 10px;
+        padding: 6px;
         padding-left: 80px;
         padding-right: 80px;
-        line-height: 1.5;
+        line-height: 1.6;
         margin:center;
         color: var(--color-10);
     }
@@ -60,7 +60,7 @@ body{
 
     .button {
         text-align: center; /* Centra el contenido en línea, como los botones */
-        margin-top: 60px;
+        margin-top: 52px;
     }
     
     /* Estilos para el botón */
