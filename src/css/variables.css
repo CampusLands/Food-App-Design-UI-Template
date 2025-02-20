@@ -43,3 +43,8 @@
     font-family: "Roboto-semibold";
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
+
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
+}
