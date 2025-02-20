@@ -9,7 +9,7 @@ body{
 }
 /************* Header *************/
 header{
-    background: linear-gradient(165deg, var(--color-2), var(--color-3));
+    background: linear-gradient(165deg, var(--color-2), var(--color-3) 67%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -26,4 +26,25 @@ header{
     font-size: 60px;
     font-weight: normal;
     color: var(--color-4);
+}
+.header__img{
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+}
+.img__1{
+    position: absolute;
+    left: 0px;
+}
+.img__2{
+    position: absolute;
+    left: 122px;
+}
+.img__3{
+    position: absolute;
+    left: 204px;
+}
+.img__4{
+    position: absolute;
+    left: 135px;
 }
