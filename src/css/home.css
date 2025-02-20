@@ -1,0 +1,45 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-4);
+}
+/**************** header ******************/
+header{
+    /* background-color: red; */
+    padding:28px 19px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__titulo{
+    /* background-color: olivedrab; */
+    display: flex;
+    flex-direction: column;
+}
+.header__titulo h1{
+    /* background-color: violet; */
+    font-family: "Lobster-Regular";
+    font-size: 45px;
+    color: var(--color-5);
+    font-weight: normal;
+
+}
+.header__titulo h3{
+    /* background-color: blueviolet; */
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--color-6);
+}
+header img{
+    /* background-color: green; */
+    width: 60px;
+    height: 60px;
+    object-fit: none;
+    object-position: 65% 20%;
+    border-radius: 25px;
+}
+/******************************************/
