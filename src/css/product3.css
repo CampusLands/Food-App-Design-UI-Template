@@ -10,11 +10,16 @@
 }
 
 .img1, .img2{
-    width: 70px;
+    width: 50px;
 }
-.div-body{
-    padding-top: 5px;
+
+.sombra_burger{
+    display: block;
+    position: relative;
+    top: -120px;
+    left: 25px;
 }
+
 .spicy-selector {
     display: flex;
     flex-direction: column;
@@ -164,9 +169,8 @@
     display: block;
     margin: 0 auto; 
     max-width: 100%;
-    width: 400px;
+    width: 350px;
     height: auto; 
-
 }
 
 
@@ -174,7 +178,7 @@
     font-family: "Roboto-SemiBold";
     text-align: left;
     font-weight: bold; 
-    margin-top: 16px; 
+    margin-top: -96px; 
     color: #3C2F2F; 
     padding-left: 19px;
 }
