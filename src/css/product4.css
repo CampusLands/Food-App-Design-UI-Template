@@ -41,3 +41,37 @@ main .section_product_image{
     align-items: center;
     padding: 59px 35px 55.5px 23px ; 
 }
+
+main .section_product_info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 19px;
+}
+
+main .section_product_info h3{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: var(--color-5);
+    font-weight: 600px;
+}
+
+main .section_product_info p:nth-child(2){
+    font-family: "Roboto-Medium";
+    font-size: 15px;
+    color: var(--color-10);
+    margin-top: 9px;
+    line-height: 20.2px;
+    font-weight: 500px;
+}
+main .section_rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main .section_product_info .section_rating img{
+    width: 16px;
+    height: 16px;
+    margin: 10px 5px 0 0 ;
+}
+
+
