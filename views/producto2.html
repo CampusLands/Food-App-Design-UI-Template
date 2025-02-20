@@ -38,23 +38,31 @@
             <br>
         </div>
         <div class="spicy-selector">
-            <label>Spicy</label>
-            <p><input type="range" min="0" max="100" class="spicy-slider"></p>
-            <p class="Mild">Mild</p>  
-            <p class="Hot">Hot</p> 
-        </div>  
-        <div class="portion-selector">
-            <label>Portion</label>
-            <div>
-                <img src="../src/storage/img/boton-quitar-producto.png" alt=""> 
-                <span class="count"> 1 </span>
-                <img src="../src/storage/img/boton-agregar-producto.png" alt="">
+            <div class="spicy">
+                <div class="spicy-selector">
+                    <div class="spicy-label">Spicy</div>
+                    <div class="slider-container">
+                        <input type="range" min="0" max="100" class="spicy-slider">
+                        <div class="spicy-labels">
+                            <span class="mild-label">Mild</span>
+                            <span class="hot-label">Hot</span>
+                        </div>
+                    </div>
+                </div>
+        <div class="portion-container">
+                    <p class="portion-label">Portion</p>
+                    <div class="portion-selector">
+                        <img src="../src/storage/img/boton-quitar-producto.png" alt="" class="img1">
+                        <span class="portion-count">1</span>
+                        <img src="../src/storage/img/boton-agregar-producto.png" alt="" class="img2">
+                    </div>
             </div>
-        </div>
-
-        <button class="price-button">$9.99</button>
-
-        <button class="order-button">ORDER NOW</button>
+            </div>
+            <div class="price-button-container">
+                <button class="price-button">$9.99</button>
+                <button class="order-button">ORDER NOW</button>
+            </div>
+            </div>        
     </footer>
 </body>
 </html>
