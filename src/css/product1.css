@@ -1,6 +1,24 @@
 @import url(variables.css);
 
-
 *{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.back{ 
+    padding:12px 22px
+
+
+}
+.search { 
+    padding:12px 22px
 }
