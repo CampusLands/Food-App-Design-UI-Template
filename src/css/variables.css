@@ -23,3 +23,11 @@
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
 }
+@font-face {
+    font-family: "letter" ;
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "letra_1";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+}

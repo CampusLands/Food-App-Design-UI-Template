@@ -110,3 +110,49 @@ main .section_product_info p:nth-child(3){
 }
 
 
+<<<<<<< HEAD
+=======
+footer{
+    padding-top: 20px ;
+}
+
+.texto{
+    padding-bottom: 25px;
+}
+.section_name{
+    margin: 20;
+    display: flex;
+    color: #3C2F2F;
+    font-family: "letter";
+}
+
+.burger{
+    width: 100%;
+    height: 10%;
+}
+.opcions{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    width: 127px;
+    height: 15px;
+}
+.opc1{
+    font-family: "letter";
+    margin: none;
+    margin-left: 5px;
+    width: 120px;
+    height: 14px;
+    color: #1CC019;
+}
+
+.opc2{
+    font-family: "letter";
+    color: var(--color-3);
+    margin-top: 0px;
+    margin: 0px 0px 0px;
+    width: 120px;
+    height: 14px;
+    margin-left: 60px;
+}
+>>>>>>> 50a2940 (feat: :lipstick: agregando botones nuevos)
