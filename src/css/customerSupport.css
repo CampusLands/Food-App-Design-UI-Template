@@ -37,11 +37,11 @@ header .settings-customer-support{
 }
 
 .chat__bot img {
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: var(--color-5);
-    object-fit: none; 
+    object-fit: none;
 
 }
 
@@ -68,12 +68,12 @@ header .settings-customer-support{
 }
 
 .chat__user img{
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down; 
+    object-fit: scale-down;
 }
 
 .chat__user p{
@@ -97,11 +97,11 @@ header .settings-customer-support{
 }
 
 .chat__bot2 img {
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: var(--color-5);
-    object-fit: none; 
+    object-fit: none;
 
 }
 
@@ -127,12 +127,12 @@ header .settings-customer-support{
 }
 
 .chat__user2 img{
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down; 
+    object-fit: scale-down;
 }
 
 .chat__user2 p{
@@ -156,11 +156,11 @@ header .settings-customer-support{
 }
 
 .chat__bot3 img {
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: var(--color-5);
-    object-fit: none; 
+    object-fit: none;
 
 }
 
@@ -185,19 +185,19 @@ header .settings-customer-support{
 }
 
 .chat__user3 img{
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down; 
+    object-fit: scale-down;
 }
 
 .chat__user3 p{
     background-color: var(--color-3);
     max-width: 259px;
     color: #FFFFFF;
-    margin-right: 1px;
+    margin-right: 14px;
     font-size: 18px;
     font-family: "Roboto-Medium";
     padding: 15px 23px;
@@ -216,35 +216,51 @@ header .settings-customer-support{
 
 /***************footer*****************************/
 .chat-container {
+    border-radius: 20px;
     background: white;
     padding: 25px;
+    padding-top: 56px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .message-box {
     display: flex;
     align-items: center;
     background: #ffffff;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 10px;
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
     border: 1px solid #ddd;
+    box-shadow: 2px 3px 15px 0 rgba(20, 20, 20, 0.3);
 }
 
 .message-input {
-    flex: 1; 
+    flex: 1;
     border: none;
     padding: 10px;
     font-size: 16px;
     outline: none;
 }
 
+.message-box input[type="text"]{
+    flex: 1;
+    border: none;
+    font-family: Roboto-SemiBold;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 20px 0 68px 0;
+}
+
 .send-button {
+    border-radius: 20px;
+    gap: 10px;
     background-color: #e30016;
     border: none;
     border-radius: 50%;
+    padding: 10px;
     width: 45px;
     height: 45px;
     display: flex;
@@ -253,7 +269,7 @@ header .settings-customer-support{
 }
 
 .send-button img {
-    width: 50px; 
-    height: 50px;
-}/*
+    width: 70px;
+    height: 70px;
+}
 
