@@ -25,6 +25,11 @@
 }
 
 @font-face {
+    font-family: "Roboto-Regular";
+    src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
+}
+
+@font-face {
     font-family: "Roboto-SemiBold";
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
