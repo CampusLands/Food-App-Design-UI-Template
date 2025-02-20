@@ -21,18 +21,45 @@ body{
     background-color: var(--color-4);
 }
 
-header {	
+header {
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: space-between;
-    padding: 0; 
+    align-items: center;
+    padding: 0;
 }
 
-header img:first-child {	
-    padding: 22px 12px 0;
+header::before {
+    /* background-color: red; */
+    content: "";
+    width: 24px; 
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../storage/img/flecha-back-black.png");
+    margin: 22px 12px 0;
 }
 
-header img:last-child {
-    padding: 28px 19px 0;
+header::after {
+    /* background-color: blue; */
+    content: "";
+    width: 24px; 
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../storage/img/search-menu.png");
+    margin: 28px 19px 0;
+}
+
+header a {
+    /* background-color: burlywood; */
+    position: absolute;
+    left: 12px;
+    top: 25px;
+    width: 24px;
+    height: 24px;
 }
 
 main .section_product_image{
