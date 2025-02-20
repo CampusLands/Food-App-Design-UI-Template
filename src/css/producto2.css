@@ -77,3 +77,10 @@ body {
     font-size: 14px;
     color: var(--color-5)
 }
+
+.product-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--color-6)
+}
