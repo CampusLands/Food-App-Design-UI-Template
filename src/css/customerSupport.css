@@ -218,8 +218,7 @@ header .settings-customer-support{
 .chat-container {
     border-radius: 20px;
     background: white;
-    padding: 25px;
-    padding-top: 56px;
+    padding: 56px 11px 35px 37px ;
     display: flex;
     align-items: center;
 }
@@ -228,7 +227,7 @@ header .settings-customer-support{
     align-items: center;
     background: #ffffff;
     border-radius: 20px;
-    padding: 10px;
+    padding-left: 27px;
     width: 100%;
     max-width: 400px;
     border: 1px solid #ddd;
@@ -255,21 +254,19 @@ header .settings-customer-support{
 }
 
 .send-button {
-    border-radius: 20px;
+    background: url('../storage/img/flecha-enviar-customer-support.png');
+    background-size: 70px 70px;
     gap: 10px;
-    background-color: #e30016;
+    background-color: var(--color-3);
     border: none;
-    border-radius: 50%;
     padding: 10px;
-    width: 45px;
-    height: 45px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.send-button img {
-    width: 70px;
-    height: 70px;
-}
+
 
