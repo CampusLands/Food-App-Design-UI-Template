@@ -31,3 +31,13 @@
     height: auto; 
 
 }
+
+
+.letter {
+    font-family: "Roboto-Regular";
+    text-align: left;
+    font-weight: bold; 
+    margin-top: 16px; 
+    color: #3C2F2F; 
+    padding-left: 19px;
+}
