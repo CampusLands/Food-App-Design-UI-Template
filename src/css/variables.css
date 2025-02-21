@@ -18,8 +18,20 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+    --color-20: #e1e1e1;
 }
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-semibold";
+    src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
+
+}
+
+@font-face {
+    font-family: "Roboto-medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
