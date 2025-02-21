@@ -164,3 +164,98 @@ li:active a {
 }
 
 /******************************************/
+/**************** main ******************/
+main{
+    padding: 41px 19px 0px;
+}
+.section__productos {
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article__contenedora {
+    background: var(--color-4);
+    width: 47%;
+    margin-bottom: 5%;
+    height: 225px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 6px 17px var(--color-shadow-2);
+    position: relative;
+}
+.article__contenedora::after{
+    content: " ";
+    width: 90px;
+    height: 5px;
+    backdrop-filter: invert(10px);
+    background: var(--color-shadow-1);
+    box-shadow: 0px 0px 15px var(--color-6), 0px 0px 15px var(--color-6),  0px 0px 15px var(--color-6);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 5;
+    inset: 0;
+    margin: auto;
+}
+.article__contenedora > img{
+    /* background: gray; */
+    height: 130px;
+    padding: 10px 20px 0px;
+    object-fit: fill;
+    position: relative;
+    z-index: 10;
+    /* filter: drop-shadow(0 4px 17px red); */
+}
+
+.div__informacion {
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 11px;
+
+}
+.div__informacion strong{
+    font-family: "Roboto-SemiBold";
+    color: var(--color-5);
+    overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.div__informacion p{
+   font-family: "Roboto-Regular";
+   color: var(--color-5);
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.div__comentarios {
+    /* background: bisque; */
+    padding: 0 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__valoracion {
+    /* background: green; */
+    display: flex;
+    gap: 3px;
+}
+.div__valoracion > img{
+    /* background: blue; */
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+.div__valoracion label{
+    font-family: "Roboto-Medium";
+    color: var(--color-5);
+}
+.div__comentarios > img{
+    /* background-color: black; */
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+/******************************************/
