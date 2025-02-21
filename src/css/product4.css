@@ -152,7 +152,9 @@ main .section_product_info p:nth-child(3){
     padding-top: 40px;
     display: flex;
     margin-top: 0px;
-    margin-left: 20px ;
+    margin-left: 20px ; 
+    transform: translateY(-40px);
+
 }
 .spicy-slider {
     width: 100%;
@@ -166,8 +168,7 @@ main .section_product_info p:nth-child(3){
     height: 20px;
     background-color: red;
     border-radius: 50%;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .spicy-labels {
