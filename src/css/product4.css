@@ -203,21 +203,29 @@ footer{
     padding-left: 17px ;
 }
 .opc1{
+    margin: -12px 0px 0px;
     font-family: "letter";
     margin: none;
     margin-left: 5px;
     width: 120px;
     height: 14px;
     color: #1CC019;
+    font-size: 12px;
 }
 
 .opc2{
     font-family: "letter";
     color: var(--color-3);
     margin-top: 0px;
-    margin: 0px 0px 0px;
+    margin: -12px 0px 0px;
     width: 120px;
     height: 14px;
+<<<<<<< HEAD
     margin-left: 60px;
 }
 >>>>>>> 50a2940 (feat: :lipstick: agregando botones nuevos)
+=======
+    margin-left: 90px;
+    font-size: 12px;
+}
+>>>>>>> d00965f (cambios)
