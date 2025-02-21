@@ -161,6 +161,7 @@ main{
     margin-left: 20px;
     background-color: var(--color-5);
     border-radius: 10px;
+    box-shadow: 0px 0px 20px var(--color-shadow-1);
     width: 84px;
     height: 99px;
 }
@@ -170,7 +171,6 @@ main{
     width: 55px;
     height: 45.91px;
     justify-content: center;
-
 }
 .ingrediente1_img{
     position: relative;
