@@ -215,42 +215,51 @@ header .settings-customer-support{
 }
 
 /***************footer*****************************/
+footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
 .chat-container {
     border-radius: 20px;
-    background: white;
-    padding: 56px 11px 35px 37px ;
     display: flex;
     align-items: center;
+    max-width: fit-content;
+    
 }
 .message-box {
+    max-width: fit-content;
     display: flex;
+    flex-direction: row;
     align-items: center;
     background: #ffffff;
     border-radius: 20px;
-    padding-left: 27px;
-    width: 100%;
-    max-width: 400px;
     border: 1px solid #ddd;
     box-shadow: 2px 3px 15px 0 rgba(20, 20, 20, 0.3);
 }
 
 .message-input {
-    flex: 1;
     border: none;
-    padding: 10px;
+    padding-left: 20px;
     font-size: 16px;
     outline: none;
+    text-align: left;
 }
 
 .message-box input[type="text"]{
-    flex: 1;
     border: none;
-    font-family: Roboto-SemiBold;
+    font-family: "Roboto-SemiBold";
     font-size: 18px;
     border: none;
     outline: none;
     border-radius: 20px;
-    padding: 0 20px 0 68px 0;
+    text-align: left;
+    padding-left: px;
 }
 
 .send-button {
@@ -266,6 +275,7 @@ header .settings-customer-support{
     display: flex;
     align-items: center;
     justify-content: center;
+    object-fit: contain;
 }
 
 
