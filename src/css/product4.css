@@ -161,14 +161,21 @@ main .section_product_info p:nth-child(3){
     height: 10px;
     background: #e5e6de;
     outline: none;
+
    
+}
+.spicy-label{
+    font-family: "family";
+    font-size: 14px;
+    color: #3C2F2F;
 }
 .spicy-slider::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
     background-color: red;
     border-radius: 50%;
-    cursor: pointer;    
+    cursor: pointer; 
+
 }
 
 .spicy-labels {
@@ -178,16 +185,24 @@ main .section_product_info p:nth-child(3){
     margin-top: 5px;
     font-size: 12px;
     font-weight: bold;
+    font-family: "family";
+    color: #3C2F2F;
+    font-size: 14px;
+
 }
 .mild-label {
     color: #1CC019;
+    font-family: "family";
+    font-size: 12px;
+
 }
 
 .hot-label {
     color: #EF2A39;
+    font-family: "family";
+    font-size: 12px;
 }
 .portion-container {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,9 +214,10 @@ main .section_product_info p:nth-child(3){
 }
 
 .portion-label {
+    font-family: "family";
+    color: #3C2F2F;
     position: relative;
     font-size: 14px;
-    font-weight: bold;
     right: 50px;
 }
 
@@ -250,6 +266,10 @@ main .section_product_info p:nth-child(3){
     margin-top: 10px;
     align-items: center;
 }
+@font-face {
+    font-family: "static";
+    src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf); 
+}
 .price-button {
     position: relative;
     background-color: #e62429; 
@@ -260,9 +280,10 @@ main .section_product_info p:nth-child(3){
     font-weight: bold;
     border-radius: 15px; 
     cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px px 8px rgba(0, 0, 0, 0.2); 
     margin-top: -50px;
-    left: 20px;
+    left: 30px;
+    font-family: "static";
 }
 
 .order-button {

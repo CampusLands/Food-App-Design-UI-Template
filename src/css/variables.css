@@ -28,6 +28,10 @@
     src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: "letra_1";
+    font-family:"static" ;
+    src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
+}
+@font-face {
+    font-family: "family";
     src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
