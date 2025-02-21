@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product 1</title>
     <link rel="stylesheet" href="../src/css/product1.css">
-
+    <title>Product 1</title>
 </head>
 <body>
-
     <div class="header">
         <a class="back" href="#" target="_blank"> 
             <img src="../src/storage/img/flecha-back-black.png"> 
@@ -26,7 +24,7 @@
         <div class="rating-time">
             <sub><img src="../src/storage/img/star-rating.png" alt=""> </sub>
             <span>   4.9</span>
-            <span>- 26 mins</span>
+            <span>-- 26 mins</span>
 </div>
         <p class="product-description">
             The Cheeseburger Wendy's Burger is a classic fast
@@ -36,6 +34,35 @@
             ripe tomato, and crunchy pickles.
         </p>
     </div>
-
+    <form>
+        <div class="container-spicy">
+            <label>Spicy</label>
+            <input type="range">
+            <div class="spicy-value">
+                <p>Mild</p>
+                <p>Hot</p>
+            </div>
+        </div>
+        <div class="container-portion">
+            <p>Portion</p>
+             <div class="portion-value-1">
+                 <button>
+                     <div class="imagenes-signos">
+                         <img src="../src/storage/img/signo-menos.png" alt="" class="img-1">
+                     </div>
+                 </button>
+                 <input type="number" value="2">
+                 <button>
+                     <div class="imagenes-signos">
+                         <img src="../src/storage/img/signo-mas.png" alt="" class="img-2">
+                     </div>
+             </div>
+         </div> 
+    </form>
+    <section class="total-price">
+        <div>
+            <p>$8.24</p>
+        </div>
+        <input type="submit" value="ORDER NOW">
+     </section> 
 </body>
-</html>
