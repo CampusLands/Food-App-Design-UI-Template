@@ -30,16 +30,31 @@
             </p>
     </main>
     <footer>
-            <b class="section_name "> Spicy </b>
-            <form class="section_formulary" action="" method="post">
-            <input type="range" name="rangeInput" min="0" max="100" step="1">
-            
-            <p class="Portion"> Portion</p>
-            </form>
-            <div class="opcions">
-                <p class="opc1"> Mild</p> 
-                <p class="opc2"> Hot </p>
+           <div class="spicy">
+        <div class="spicy-selector">
+            <div class="spicy-label">Spicy</div>
+            <div class="slider-container">
+                <input type="range" min="0" max="10" class="spicy-slider" >
+                <div class="spicy-labels">
+                    <span class="mild-label">Mild</span>
+                    <span class="hot-label">Hot</span>
+                </div>
             </div>
+        </div>
+<div class="portion-container">
+            <p class="portion-label">Portion</p>
+            <div class="portion-selector">
+                <img src="../src/storage/img/boton-quitar-producto.png" alt="" class="img1">
+                <span class="portion-count">2</span>
+                <img src="../src/storage/img/boton-agregar-producto.png" alt="" class="img2">
+            </div>
+    </div>
+    </div>
+    <div class="price-button-container">
+        <button class="price-button">$12.48</button>
+        <button class="order-button">ORDER NOW</button>
+    </div>
+
     </footer>
 </body>
 </html>
