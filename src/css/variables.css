@@ -18,7 +18,8 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
-    --color-20: #e1e1e1;
+    --color-20: #E1E1E1;
+    --color-21: #E8E8E8;
 }
 @font-face {
     font-family: "example";
@@ -34,4 +35,4 @@
 @font-face {
     font-family: "Roboto-medium";
     src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
-}
+	}
