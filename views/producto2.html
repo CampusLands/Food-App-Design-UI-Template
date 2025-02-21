@@ -37,32 +37,37 @@
             <br>
             <br>
         </div>
-        <div class="spicy-selector">
-            <div class="spicy">
+        <div class="spicy-and-portion">
+            <div class="spicy-container">
+                <p class="spicy-label">Spicy</p>
                 <div class="spicy-selector">
-                    <div class="spicy-label">Spicy</div>
                     <div class="slider-container">
-                        <input type="range" min="0" max="100" class="spicy-slider">
+                        <input  type="range" min="0" max="100" class="spicy-slider">
                         <div class="spicy-labels">
                             <span class="mild-label">Mild</span>
                             <span class="hot-label">Hot</span>
                         </div>
                     </div>
                 </div>
-        <div class="portion-container">
-                    <p class="portion-label">Portion</p>
-                    <div class="portion-selector">
-                        <img src="../src/storage/img/boton-quitar-producto.png" alt="" class="img1">
-                        <span class="portion-count">1</span>
-                        <img src="../src/storage/img/boton-agregar-producto.png" alt="" class="img2">
-                    </div>
             </div>
+            
+            <div class="portion-container">
+                <p class="portion-label">Portion</p>
+                <div class="portion-selector">
+                    <button class="decrease-btn">
+                        <img src="../src/storage/img/boton-quitar-producto.png" alt="Decrease">
+                    </button>
+                    <input type="number" class="portion-count" value="1" min="1" max="99">
+                    <button class="increase-btn">
+                        <img src="../src/storage/img/boton-agregar-producto.png" alt="Increase">
+                    </button>
+                </div>
             </div>
-            <div class="price-button-container">
-                <button class="price-button">$9.99</button>
-                <button class="order-button">ORDER NOW</button>
-            </div>
-            </div>        
+        </div>
+        <div class="price-button-container">
+            <button class="price-button">$9.99</button>
+            <button class="order-button">ORDER NOW</button>
+        </div>
     </footer>
 </body>
 </html>
