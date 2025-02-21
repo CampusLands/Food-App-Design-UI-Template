@@ -56,13 +56,15 @@ main .section_product_image{
     justify-content: center;
     align-items: center;
     padding: 59px 35px 55.5px 23px ;
-    transform: translateY(-10px); 
+    transform: translateY(-30px); 
 }
 
 main .section_product_info{
+    /*background-color: #e62429;*/
     display: flex;
     flex-direction: column;
     padding: 0 19px;
+    transform: translateY(-40px);
 }
 
 main .section_product_info h3{
