@@ -18,7 +18,9 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+    --color-shadow-1: rgba(0, 0, 0, 0.219);
 }
+
 @font-face {
     font-family: "Roboto-Regular";
     src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
