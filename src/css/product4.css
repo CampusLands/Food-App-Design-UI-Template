@@ -121,6 +121,7 @@ main .section_product_info p:nth-child(3){
     justify-content: space-between;
     width: 100px;
     align-items: center;
+    align-items: center;
 }
 
 .plus{
