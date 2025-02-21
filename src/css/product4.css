@@ -109,6 +109,15 @@ main .section_product_info p:nth-child(3){
     line-height: 27.47px;
 }
 
+<<<<<<< HEAD
+=======
+.section_formulary{
+    margin: 20px;
+    display: flex;
+    padding: -12px 90px 20px 20px ;
+    color: #3C2F2F;
+}
+>>>>>>> dd9150b (feat: :art: creacion de cajas)
 
 <<<<<<< HEAD
 =======
@@ -119,11 +128,16 @@ footer{
 .texto{
     padding-bottom: 25px;
 }
-.section_name{
-    margin: 20;
-    display: flex;
-    color: #3C2F2F;
-    font-family: "letter";
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Crea dos columnas de igual tamaño */
+    gap: 10px; /* Espacio entre las columnas */
+}
+  
+.col {
+    padding: 10px;
+    background-color: lightblue;
+    text-align: center;
 }
 
 .burger{
