@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/************************************body********************************************/
 body{
     background-color: var(--color-4);
 }
@@ -50,6 +51,7 @@ header a {
     width: 24px;
     height: 24px;
 }
+/*************************MAIN**********************************/
 
 main .section_product_image{
 	display: flex;
