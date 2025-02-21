@@ -46,9 +46,10 @@
 .product-description {
     font-family: "Roboto-Regular";
     text-align: left;
-    margin-top: 16px;
     color: #6A6A6A;
-    padding-left: 19px;
+    padding: 16px 19px 0px;
+    line-height: 171.7%;
+    font-size: 16px;
 }
 
 .rating-time{
@@ -162,7 +163,7 @@ form .container-portion .portion-value-1{
     font-size: 18px;
     font-family: "Inter-medium";
     color: var(--color-5);
-    -moz-appearance: textfield; /* Elimina flechas en Firefox */
+    -moz-appearance: textfield; 
     appearance: textfield;
 }
 
@@ -170,4 +171,36 @@ form .container-portion .portion-value-1{
 .container-portion .portion-value-1 input::-webkit-outer-spin-button {
     -webkit-appearance: none;
 }
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 19px 0px;
+}
+
+.total-price div{
+    width: 104px;
+    height: 70px;
+    background: var(--color-3);
+    border-radius: 20px;
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-semibold;
+    font-size: 22px;
+    box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.25);
+}
+
+.total-price input{
+    width: 239px;
+    border-radius: 20px;
+    background-color: var(--color-5);
+    color: var(--color-4);
+    font-family: "Inter-semibold";
+    font-size: 18px;
+    box-shadow: 0px 9px 30px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}   
+
 
