@@ -123,6 +123,7 @@ main .section_product_info p:nth-child(3){
     color: var(--color-6);
     margin-top: 19px;
     line-height: 27.47px;
+    padding-right: 5px;
 }
 
 footer{ 
@@ -243,7 +244,7 @@ input[type="range"]::-webkit-slider-thumb {
     align-items: center;
     gap: 8px;
     position: absolute;
-    left: 280px;
+    left: 278px;
 
    
 }
