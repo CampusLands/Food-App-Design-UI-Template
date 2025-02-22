@@ -20,18 +20,10 @@
     --color-19: #F3F4F6;
 }
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
-}
-@font-face {
-    font-family: "letter" ;
-    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
-}
-@font-face {
-    font-family:"static" ;
+    font-family:"Roboto-SemiBold" ;
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
 @font-face {
-    font-family: "family";
+    font-family: "Roboto-Medium";
     src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
