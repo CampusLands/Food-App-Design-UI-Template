@@ -21,6 +21,7 @@
 
     --color-shadow-1: hsla(0, 0%, 0%, 0.150);
     --color-shadow-2: hsla(0, 0%, 0%, 0.130);
+    --color-shadow-3: hsla(0, 0%, 0%, 0.250);
 }
 @font-face {
     font-family: "Lobster-Regular";
