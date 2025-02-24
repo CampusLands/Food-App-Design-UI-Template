@@ -22,6 +22,12 @@
     --color-shadow-1: hsla(0, 0%, 0%, 0.150);
     --color-shadow-2: hsla(0, 0%, 0%, 0.130);
     --color-shadow-3: hsla(0, 0%, 0%, 0.250);
+    --color-shadow-4: rgba(0, 0, 0, 0.219);
+}
+
+@font-face {
+    font-family: "Roboto-ExtraBold";
+    src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
 }
 @font-face {
     font-family: "Lobster-Regular";
@@ -32,12 +38,12 @@
     src: url(../storage/fonts/Poppins/Poppins-Medium.ttf);
 }
 @font-face {
-    font-family: "Roboto-Medium";
-    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
-}
-@font-face {
     font-family: "Roboto-SemiBold";
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
 @font-face {
     font-family: "Roboto-Regular";
