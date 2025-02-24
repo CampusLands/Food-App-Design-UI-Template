@@ -47,3 +47,11 @@
     font-family: "Inter_18pt-Medium";
     src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }
+@font-face {
+    font-family: "Inter-semibold";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter-medium";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
+}
