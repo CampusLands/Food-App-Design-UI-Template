@@ -30,6 +30,22 @@
     src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
 }
 @font-face {
+    font-family: "Inter_18pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Regular.ttf);
+}
+@font-face {
     font-family: "Lobster-Regular";
     src: url(../storage/fonts/Lobster/Lobster-Regular.ttf);
 }
@@ -56,8 +72,4 @@
 @font-face {
     font-family: "Inter-semibold";
     src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
-}
-@font-face {
-    font-family: "Inter-medium";
-    src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }

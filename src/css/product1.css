@@ -150,7 +150,7 @@ form .container-portion .portion-value-1{
     border: none;
     text-align: center;
     font-size: 18px;
-    font-family: "Inter-medium";
+    font-family: "Inter_18pt-Medium";
     color: var(--color-5);
     -moz-appearance: textfield; 
     appearance: textfield;
