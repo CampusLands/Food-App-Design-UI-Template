@@ -193,13 +193,13 @@ main{
         width: 336px;
         height: 2px;
         margin: 50.5px auto 32.5px auto ;
-        background-color: var(--color-21);
+        background-color: var(--color-22);
     }
     .details{
         width: 343px;
         height: 28px;
         margin: 20px auto  ;
-        /* background-color: var(--color-20); */
+        /* background-color: var(--color-21); */
         font-family: "Roboto-medium";
         font-size: 18px;
         color: var(--color-10);
@@ -214,7 +214,7 @@ main{
         margin: -88px auto 100px 100% ;
         align-content: center;
         color: var(--color-10);
-        /* background-color: var(--color-20); */
+        /* background-color: var(--color-21); */
     }
     .footer-box{
         position: relative;
