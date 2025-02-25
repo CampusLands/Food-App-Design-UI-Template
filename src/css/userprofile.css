@@ -6,7 +6,7 @@
     font-family: "Roboto semibold";
 }
 body{
-    background-color: var(--color-3);
+    background-color: var(--color-4);
 }
 
 /********** Header **********/
@@ -68,16 +68,14 @@ main{
     top: 161px;
     width: 100%;
     border-radius: 35px;
-    border-style: solid;
-    border-width: 1px;
 }
 .section_img_main{
     /* background-color: blue; */
     width: 139px;
     height: 139px;
     left: 146px;
-    top: 68px;
-    position: fixed;
+    top: -98px;
+    position: relative;
     overflow: hidden;
     border-radius: 20px;
     border-style: solid;
@@ -125,12 +123,12 @@ main{
         position: relative;
         left: 20px;
         width: 90%;
-        top: 50px;
+        top: -90px;
         height: 100vw;
         }
     
     .box{
-        border: 3px solid var(--color-20);
+        /* border: 3px solid var(--color-20); */
         border-radius: 20px;
         width: 395px;
         height: 60px;
@@ -156,7 +154,7 @@ main{
         /* display: grid; */
         position: relative;
         top: -10px;
-        width: 45vw;
+        width: 35vw;
         padding: 0 15px;
         text-align: center;
         margin: 0 0 0 20px;
@@ -168,7 +166,7 @@ main{
     .password{
         position: relative;
         top: -10px;
-        width: 40vw;
+        width: 35vw;
         padding: 0 15px;
         text-align: center;
         margin: 0 0 0 20px;
@@ -177,100 +175,20 @@ main{
         color: var(--color-10);
         background-color: white;
     }
-    .box-content{
-        width: 80vw;
-        margin: 0px  -10px 19px 39px ;
+    input{
+        text-align: center;
         align-items: center;
+        width: 390px;
+        margin-top: -25px;
+        height: 60px;
         font-family: "Roboto-semibold";
+        border: 3px solid var(--color-20);
+        border-radius: 20px;
+        outline: none;
         color: var(--color-5);
         font-size: 18px;
     }
-    .points{
-        position: absolute;
-        margin: -20px  0px 19px 0px ;
-        width: 100%;
-        /* background-color: rgb(102, 15, 241); */
-    }
-    .circle1{
-        width: 12px;
-        height: 12px;
-        margin: 24px  344px 24px 39px ;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle2{
-        width: 12px;
-        height: 12px;
-        margin: -36px  324px 24px 59px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle3{
-        width: 12px;
-        height: 12px;
-        margin: -36px  304px 24px 79px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle4{
-        width: 12px;
-        height: 12px;
-        margin: -36px  284px 24px 99px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle5{
-        width: 12px;
-        height: 12px;
-        margin: -36px  264px 24px 119px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle6{
-        width: 12px;
-        height: 12px;
-        margin: -36px  244px 24px 139px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle7{
-        width: 12px;
-        height: 12px;
-        margin: -36px  224px 24px 159px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle8{
-        width: 12px;
-        height: 12px;
-        margin: -36px  204px 24px 179px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
-    .circle9{
-        width: 12px;
-        height: 12px;
-        margin: -36px  184px 24px 199px ;
-        top: 0px;
-        border-radius: 50%;
-        align-items: left;
-        background-color: var(--color-5);
-    }
+
     .line{
         width: 336px;
         height: 2px;
