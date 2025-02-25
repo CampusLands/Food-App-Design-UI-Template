@@ -54,11 +54,12 @@ header img {
 /**************** nav ******************/
 .nav__busqueda {
     /* background: red; */
-    padding: 47px 19px 0px;
 }
 
 .form__busqueda {
     /* background: blue; */
+    padding: 47px 19px 41px 19px;
+    overflow: hidden;
     display: flex;
     gap: 13px;
     justify-content: space-between;
@@ -66,6 +67,7 @@ header img {
 
 .input__logo {
     flex: 1;
+    /* background: orange; */
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -73,12 +75,14 @@ header img {
 }
 
 .input__logo::before {
+    /* background: orange; */
     content: url(../storage/img/search-menu.png);
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .form__busqueda input[type="text"] {
+    box-sizing: content-box;
     flex: 1;
     height: 100%;
     font-family: "Roboto-Medium";
@@ -87,7 +91,7 @@ header img {
     border: none;
     outline: none;
     border-radius: 20px;
-    padding: 0 20px 0 60px;
+    padding: 0 10px 0 40px;
     box-shadow: 0px 4px 19px var(--color-shadow-1);
 }
 
@@ -111,6 +115,7 @@ header img {
 }
 
 .form__busqueda input[type="submit"] {
+    flex: 1;
     width: 60px;
     height: 60px;
     border: none;
@@ -121,7 +126,7 @@ header img {
 
 .nav__categoria {
     /* background: green; */
-    padding: 41px 0 0;
+    margin: 0px 19px 0;
     display: flex;
     overflow-x: scroll;
     gap: 14px;
