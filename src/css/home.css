@@ -199,14 +199,20 @@ main{
     inset: 0;
     margin: auto;
 }
-.article__contenedora > img{
+.article__contenedora a{
     /* background: gray; */
     height: 130px;
-    padding: 10px 20px 0px;
-    object-fit: fill;
+    padding: 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     z-index: 10;
-    /* filter: drop-shadow(0 4px 17px red); */
+}
+.article__contenedora a img{
+    /* background: red; */
+    width: 100%;
+    object-fit: contain;
 }
 
 .div__informacion {
