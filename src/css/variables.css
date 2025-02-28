@@ -27,6 +27,10 @@
 }
 
 @font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
     font-family: "Roboto-ExtraBold";
     src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
 }

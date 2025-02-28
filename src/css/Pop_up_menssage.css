@@ -75,5 +75,8 @@ body{
         border-radius: 15px;
         cursor: pointer;
     }
-    
+    .boton a{
+        text-decoration: none;
+        color: var(--color-4);
+    }
     
