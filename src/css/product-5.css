@@ -132,14 +132,14 @@ main{
 /**************************************************/
 /**************** Toppings y Side options ****************/
 .p__toppings{
-    font-family: "Roboto-Medium";
+    font-family: "Roboto-SemiBold";
     font-size: 18px;
     color: var(--color-5);
     margin: 45px 0px 10px 19px;
 }
 
 .p__side{
-    font-family: "Roboto-Medium";
+    font-family: "Roboto-SemiBold";
     font-size: 18px;
     color: var(--color-5);
     margin: 30px 0px 10px 19px;
@@ -184,16 +184,18 @@ main{
 }
 
 .p__ingrediente1{
-    font-family: "Reboto_SemiBold";
+    font-family: "Reboto-Medium";
     font-size: 12px;
     color: var(--color-4);
     padding-right: 15px;
+    font-weight: bold;
 }
 .img__signo-mas-t-1{
     background: var(--color-3);
     border-radius: 10px;
     width: 16px;
     height: 16px;
+    padding: 4px;
 }
 .div__ingrediente1{
     display: flex;
@@ -223,7 +225,8 @@ footer{
     color: var(--color-5);
 }
 .div__text-total{
-    font-family: "Roboto-Medium";
+    font-family: "Roboto-SemiBold";
+    font-size: 18px;
 }
 .div__total-price{
     display: flex;
@@ -233,14 +236,15 @@ footer{
     margin: 0px;
 }
 .p__simbol{
+    margin-top: 10px;
     color: var(--color-3);
-    font-size: 25px;
+    font-size: 24px;
+    font-family: "Roboto-SemiBold";
 }
 .p__tprice{
     color: var(--color-5);
-    font-size: 40px;
-    font-family: "Roboto-ExtraBold";
-    font-weight: bold;
+    font-size: 36px;
+    font-family: "Roboto-SemiBold";
 }
 .div__order{
     display: flex;
@@ -252,10 +256,9 @@ footer{
     width: 200px;
     height: 70px;
     border-radius: 20px;
-}
-.div__order p{
-    font-family: "Roboto-SemiBold";
-    font-size: 18px;
     color: var(--color-4);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Inter-SemiBold";
 }
 /**************************************************/
