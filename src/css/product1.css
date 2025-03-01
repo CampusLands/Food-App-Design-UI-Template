@@ -14,13 +14,20 @@
     padding: 18px 19px 0px;
 }
 
-.burger {
-    display: block;
-    margin: 0 auto;
+.burger-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.burguer-container .burger {
+    /* display: block;
+    margin: 0 auto; */
     max-width: 100%;
     margin-top: -16px;
     width: 350px;
     height: auto;  
+    overflow: hidden;
 }
 
 
