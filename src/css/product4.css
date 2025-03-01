@@ -124,7 +124,7 @@ main .section_product_info p:nth-child(3){
     color: var(--color-6);
     margin-top: 19px;
     line-height: 27.47px;
-    padding-right: 5px;
+    padding-right: 8px;
 }
 
 footer{ 
