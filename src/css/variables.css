@@ -18,10 +18,37 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
+    --color-20: hsl(0, 0%, 80%);
 
     --color-shadow-1: hsla(0, 0%, 0%, 0.150);
     --color-shadow-2: hsla(0, 0%, 0%, 0.130);
     --color-shadow-3: hsla(0, 0%, 0%, 0.250);
+    --color-shadow-4: rgba(0, 0, 0, 0.219);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-ExtraBold";
+    src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Bold";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_28pt-Regular";
+    src: url(../storage/fonts/Inter/static/Inter_28pt-Regular.ttf);
 }
 @font-face {
     font-family: "Lobster-Regular";
@@ -32,26 +59,24 @@
     src: url(../storage/fonts/Poppins/Poppins-Medium.ttf);
 }
 @font-face {
-    font-family: "Roboto-Medium";
-    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
-}
-@font-face {
     font-family: "Roboto-SemiBold";
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
 @font-face {
-    font-family: "Roboto-Regular";
+    font-family: "Roboto-regular";
     src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
 @font-face {
     font-family: "Inter_18pt-Medium";
     src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }
 @font-face {
-    font-family: "Inter-semibold";
+    font-family: "Inter_18pt-SemiBold";
     src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
 }
-@font-face {
-    font-family: "Inter-medium";
-    src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
-}
+
+

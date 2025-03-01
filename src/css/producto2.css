@@ -1,0 +1,268 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/******************************* header ************************/
+header{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.back__button{
+    background-color: transparent; 
+    border: none;
+    padding: 11px;
+
+    
+    
+
+}
+.back__button img{
+    width: 20px;  
+}
+
+.search__button{
+    background-color: transparent; 
+    border: none;
+    padding: 11px; 
+}
+.search__button img{
+    width: 20px;
+}
+
+/******************************* main ************************/
+.main_image{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+
+.div_image{
+    width: 370%;
+    height: 370%;
+    filter: drop-shadow(0px 28px 20px rgba(0, 0, 0, 0.5));
+}
+
+/******************************* main ************************/
+
+/******************************* footer ************************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-4);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.product-title {
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--color-5)
+    
+}
+
+.rating-time {
+    margin: 15px;
+    font-size: 14px;
+    color: var(--color-6)
+}
+
+.product-description{
+    margin: 15px;
+    text-align: left;
+    width: 350px;    
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--color-6)
+}
+
+
+
+/* esto es el container de la barra de spicy y la de la portion */
+
+.spicy-and-portion {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px;
+    gap: 15px;
+    margin-top: -5%;
+}
+
+
+/* color de el container completo de la barra de spicy  */
+.spicy-container {
+    flex: 0.8;
+    width: 168px;
+    height: 67px;
+    
+}
+
+.portion-container {
+    /* background-color: red; */
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    width: 121px;
+    height: 64px;    
+}
+
+/* color de el container de la barra de spicy */
+
+.spicy-selector {
+    margin: 7px 0;
+}
+
+/* color de el container de la etiquetas spicy y portion */
+.portion-label, .spicy-label {
+    font-size: 16px;
+    color: var(--color-5);
+    margin-bottom: 8px;
+}
+
+/* esto es el slider de la barra */
+
+.spicy-slider {
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    accent-color: var(--color-3);
+    outline: none;
+
+    
+} 
+
+
+/* separacion de la  MIld y HOT de la slider */
+.spicy-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+/* ESTO ES LA ETIQUETA SPICY */
+.mild-label {
+    color: var(--color-11);
+}
+
+.hot-label {
+    color: var(--color-3) ;
+}
+
+/* esto es el selector de la cantidad de productos */
+
+
+.decrease-btn, .increase-btn {
+    background: none;
+    border: none;
+    padding: -9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 50px;
+}
+
+.decrease-btn img, .increase-btn img {
+    width: 150%;
+    height: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.portion-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.portion-count {
+    width: 25px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+.portion-count::-webkit-inner-spin-button,
+.portion-count::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* esto es el selector de precio esto se hace con js solo estoy agrgando el css  */
+
+
+.price-button-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+}
+
+
+.price-button {
+    background-color: var(--color-3);
+    color: var(--color-4);
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 104px;
+    height: 70px;
+    filter: drop-shadow(0px 28px 20px rgba(0, 0, 0, 0.5));
+    
+}
+
+.order-button {
+    background-color: var(--color-5);
+    color: var(--color-4);
+    border: none;
+    padding: 20px 60px; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 239px;
+    height: 70px;
+    filter: drop-shadow(0px 28px 20px rgba(0, 0, 0, 0.5));
+}   
