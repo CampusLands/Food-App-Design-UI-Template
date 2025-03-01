@@ -49,7 +49,7 @@ header .settings-customer-support{
 .chat__bot p {
     max-width: 255px;
     background-color: var(--color-19);
-    max-width: 259px;
+    max-width: 70%;
     color: var(--color-5);
     margin-left: 14px;
     font-size: 18px;
@@ -73,12 +73,12 @@ header .settings-customer-support{
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .chat__user p{
     background-color: var(--color-3);
-    max-width: 255px;
+    max-width: 70%;
     color: #FFFFFF;
     margin-right: 14px;
     font-size: 18px;
@@ -107,7 +107,7 @@ header .settings-customer-support{
 
 
 .chat__bot2 p {
-    max-width: 255px;
+    max-width: 70%;
     background-color: var(--color-19);
     color: var(--color-5);
     margin-left: 14px;
@@ -123,7 +123,7 @@ header .settings-customer-support{
     align-items: top;
     flex-direction: row-reverse;
     padding: 43px 28px 0 14px;
-
+    
 }
 
 .chat__user2 img{
@@ -132,12 +132,12 @@ header .settings-customer-support{
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .chat__user2 p{
     background-color: var(--color-3);
-    max-width: 259px;
+    max-width: 70%;
     color: #FFFFFF;
     margin-right: 14px;
     font-size: 18px;
@@ -166,7 +166,7 @@ header .settings-customer-support{
 
 
 .chat__bot3 p {
-    max-width: 255px;
+    max-width: 70%;
     background-color: var(--color-19);
     color: var(--color-5);
     margin-left: 14px;
@@ -190,12 +190,12 @@ header .settings-customer-support{
     border-radius: 50%;
     padding: 2px;
     background-color: var(--color-3);
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .chat__user3 p{
     background-color: var(--color-3);
-    max-width: 259px;
+    max-width: 70%;
     color: #FFFFFF;
     margin-right: 14px;
     font-size: 18px;
@@ -224,16 +224,17 @@ footer{
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .chat-container {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    max-width: fit-content;
-    
+    max-width: 90%;
 }
 .message-box {
-    max-width: fit-content;
+    max-width: 600px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
