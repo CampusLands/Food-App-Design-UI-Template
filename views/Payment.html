@@ -3,107 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment page</title>
-    <link rel="stylesheet" href="../src/css/Payment.css">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="../src/css/payment.css">
 </head>
 <body>
 
-<!--************Header************-->
-    <header class = "header_container">
-        <button class="button_1">
+    <!--************Header************-->
+    <header class="header_container">
+
+        <a href="home.html" class="button_1">
             <img src="/src/storage/img/flecha-back-black.png" class="arrow_left_img">
-        </button>
+
+        </a>
+
 
         <button class="button_2">
-            <img src= "/src/storage/img/search-menu.png" class="search_img">
+            <img src="/src/storage/img/search-menu.png" class="search_img">
         </button>
     </header>
 
-<!--************main************-->
-<main>
-    <section class="main_section">
-        <h1 class="main_section_title">Order Summary</h1>
+    <!--************Main Content************-->
+    <main>
+        <section class="main_section">
+            <h1 class="main_section_title">Order Summary</h1>
 
-        <div class="order-item">
-            <span>Order</span>
-            <span>$16.48</span>
-        </div>
-
-        <div class="order-item">
-            <span>Taxes</span>
-            <span>$0.3</span>
-        </div>
-
-        <div class="order-item">
-            <span>Delivery fees</span>
-            <span>$1.5</span>
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="order-item-total">
-            <span>Total:</span>
-            <span>$18.19</span>
-        </div>
-
-        <div class="order-item-tiempo">
-            <span>Estimated delivery time:</span>
-            <span>15 - 30 mins</span>
-        </div>
-    </section>
-
-    <section class="payment_section">
-        <h1 class="payment_tittle">Payment methods</h1>
-
-        <button class="payment_button">
-
-            <img src="/src/storage/img/credit-card-payment.png" alt="MasterCard">
-            <div>
-                <span>Credit card</span>
-                <span>5105 **** **** 0505</span>
+            <div class="order-item">
+                <span>Order</span>
+                <span>$16.48</span>
             </div>
-            <label class="custom_checkbox">
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-        </button>
 
-        <button class="payment_button">
-            <img src="/src/storage/img/debit-card-payment.png" alt="Visa">
-            <div>
-                <span>Debit card</span>
-                <span>5105 **** **** 0505</span>
+            <div class="order-item">
+                <span>Taxes</span>
+                <span>$0.3</span>
             </div>
-            <label class="custom_checkbox">
-                <input type="checkbox" name="payment_method">
-                <span class="checkmark"></span>
-            </label>
-        </button>
 
-        <label class="custom_checkbox save_card_checkbox">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-            Save card details for future payments
-        </label>
-    </section>
-</main>
+            <div class="order-item">
+                <span>Delivery fees</span>
+                <span>$1.5</span>
+            </div>
 
+            <div class="divider"></div>
 
+            <div class="order-item-total">
+                <span>Total:</span>
+                <span>$18.19</span>
+            </div>
 
-<!--************footer************-->
-    <footer>
-        <section class="footer_section">
-            <div class="footer_container">
-                <div class="price_container">
-                    <span class="total_price_text">Total price</span>
-                    <div class="price_amount">
-                        <span class="currency">$</span>
-                        <span class="amount">18.19</span>
-                    </div>
-                </div>
-                <button class="pay_now_button"><a href="Pop-up-messange.html">Pay Now</a></button>
+            <div class="order-item-tiempo">
+                <span>Estimated delivery time:</span>
+                <span>15 - 30 mins</span>
             </div>
         </section>
+
+        <!--************Payment Methods************-->
+        <section class="payment_section">
+            <h1 class="payment_tittle">Payment Methods</h1>
+
+            <button class="payment_button">
+                <img src="/src/storage/img/credit-card-payment.png" alt="Credit Card">
+                <div class="payment_button_credit">
+                    <span>Credit Card</span>
+                    <span>5105 **** **** 0505</span>
+                </div>
+                <label class="custom_checkbox">
+                    <input type="checkbox" name="payment_method">
+                    <span class="checkmark"></span>
+                </label>
+            </button>
+
+            <button class="payment_button2">
+                <img src="/src/storage/img/debit-card-payment.png" alt="Debit Card">
+                <div class="payment_button_debit">
+                    <span>Debit Card</span>
+                    <span>5105 **** **** 0505</span>
+                </div>
+                <label class="custom_checkbox">
+                    <input type="checkbox" name="payment_method">
+                    <span class="checkmark"></span>
+                </label>
+            </button>
+
+            <label class="custom_checkbox save_card_checkbox">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                Save card details for future payments
+            </label>
+        </section>
+    </main>
+
+    <!--************Footer************-->
+    <footer class="footer_section">
+        <div class="footer_container">
+            <div class="price_container">
+                <span class="total_price_text">Total Price</span>
+                <div class="price_amount">
+                    <span class="currency">$</span>
+                    <span class="amount">18.19</span>
+                </div>
+            </div>
+            <a href="Pop-up-messange.html" class="pay_now_button">Pay Now</a>
+        </div>
     </footer>
+
 </body>
 </html>

@@ -18,7 +18,8 @@
     --color-17: #2E2E2E;
     --color-18: #A6B69B;
     --color-19: #F3F4F6;
-    --color-20: hsl(0, 0%, 80%);
+    --color-20: #7D7D7D;
+    --color-21: #808080;
 
     --color-shadow-1: hsla(0, 0%, 0%, 0.150);
     --color-shadow-2: hsla(0, 0%, 0%, 0.130);
@@ -78,5 +79,3 @@
     font-family: "Inter_18pt-SemiBold";
     src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
 }
-
-

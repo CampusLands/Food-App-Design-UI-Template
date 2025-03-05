@@ -1,159 +1,164 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family : "Inter_18pt-Regular";
-}
-.header_container{
-    /*background-color: aqua;*/
-    height: 60px;
-}
-.button_1{
-    position: relative;
-    width: 28px;
-    height: 28px;
-    top:19px;
-    left: 10px;
-    background-color: var(--color-1);
-    border:none;
-    cursor: pointer;
-}
-
-.button_2{
-    position: relative;
-    left: 80%;
-    width: 28px;
-    height: 28px;
-    top:13px;
-    background-color: var(--color-1);
-    border:none;
-    cursor: pointer;
-}
-
-.main_section_title{
-    position:relative;
-    font-family:"Inter_28pt-Bold";
-    color: var(--color-2);
-    left:18px;   
-    font-size:20px;
-    overflow: hidden;
-    
-}
-
-.order-item{
-    justify-content: space-between;
     font-family: "Inter_18pt-Regular";
-    display: flex;
-    padding: 30px;
-    margin-bottom: -34px;
-    color: var(--color-3);
-    overflow: hidden;
-}
-.hr {
-    margin-top: 8px;
-    overflow: hidden;
 }
 
-.order-item-total{
-    margin-top: 5px;
-    display:flex;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding-bottom: 100px; /* Espacio para el footer */
+}
+
+.header_container {
+    display: flex;
     justify-content: space-between;
-    font-family: "Inter_28pt-Bold";
-    font-size: 20px;
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;  
-}
-.order-item-tiempo{
-    display:flex;
-    justify-content: space-between;
-    font-family: "Inter_28pt-Bold";
-    font-size: 15px;
-    padding: 20px;
-    margin-top: -15px;
-    margin-left: 10px;
-    margin-right:10px;
+    align-items: center;
+    padding: 22px 19px 31px 12px;
+    background-color: var(--color-4);
 }
 
-.payment_tittle{
-    font-family: "Inter_28pt-Bold";
-    color: var(--color-2);
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-.payment_button{
-    margin-top: 20px;
-    display: flex;
-    width: 248px;
-    height: 50px;
-    margin-left: 30px;
-    background-color: var(--color-2);
-    border-radius: 15px;
-    color: var(--color-1);
-}
-
-.payment_button:nth-of-type(2){
-    background-color: var(--color-1);
-    color: var(--color-2);
-}
-
-.payment_button img{
-    width: 70px;
-    height: auto;
-    padding:3px;
-    margin-top: 2px;
-    display: flex;
-    align-items: center; 
-    gap: 5px; 
-    padding: 10px;
-    
-}
-.payment_button div {
-    display: flex;
-    flex-direction: column; 
-    line-height: 1.2;
-}
-
-
-.custom_checkbox {
+/* Ajuste del botón */
+.header_container .button_1,
+.header_container .button_2 {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    cursor: pointer;
-    user-select: none;
+    justify-content: center;
 }
 
-.custom_checkbox input {
-    display: none;
-    border: 2px solid black;
-}
-
-.checkmark {
+/* Imágenes del header */
+.header_container .button_1 img,
+.header_container .button_2 img {
     width: 20px;
     height: 20px;
-    border: 2px solid white;  
-    border-radius: 50%;
-    position: relative;
-    margin-left: 10px;
-    border: 2px solid black;
+    object-fit: contain;
 }
 
-
-.custom_checkbox input:checked + .checkmark {
-    background-color: white; 
-    border: 2px solid black;
+/* Sección principal */
+.main_section_title {
+    margin: 0 0 20px 20px;
+    font-size: 20px;
+    font-family: "Poppins-Medium";
+    color: var(--color-5);
 }
 
-.custom_checkbox input:checked + .checkmark::before {
-    content: "✔";
-    font-size: 14px;
+.order-item,
+.order-item-total,
+.order-item-tiempo {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/* Línea divisoria */
+.divider {
+    width: calc(100% - 40px);
+    height: 1px;
+    background-color: var(--color-6);
+    margin: 14.5px 20px 24.5px 20px;
+}
+
+/* Métodos de pago */
+.payment_tittle {
+    margin: 0 20px 22px 20px;
+    font-size: 20px;
+    font-family: "Poppins-Medium";
+    color: var(--color-5);
+}
+
+/* Botones de pago */
+.payment_button,
+.payment_button2 {
+    width: calc(100% - 40px);
+    height: 80px;
+    border-radius: 24px;
+    margin: 0 20px 16px 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    border: none;
+    cursor: pointer;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.payment_button {
+    background-color: var(--color-5);
+}
+
+.payment_button2 {
+    background-color: var(--color-4);
+    border: 1px solid var(--color-6);
+}
+
+/* Footer */
+.footer_section {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--color-4);
+    padding: 15px 0;
+}
+
+.footer_container {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total_price_text {
+    font-size: 16px;
+    color: var(--color-20);
+}
+
+.price_amount {
+    display: flex;
+    align-items: center;
+}
+
+.currency {
+    font-size: 32px;
+    margin-right: 4px;
+    color: var(--color-3);
+}
+
+.amount {
+    font-size: 32px;
     font-weight: bold;
-    color:  black;  
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    color: var(--color-5);
+}
+
+.pay_now_button {
+    background-color: var(--color-5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 209px;
+    height: 60px;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    text-decoration: none;
     
 }
-
