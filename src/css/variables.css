@@ -28,6 +28,10 @@
 }
 
 @font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
     font-family: "Roboto-ExtraBold";
     src: url(../storage/fonts/Roboto/static/Roboto-ExtraBold.ttf);
 }
@@ -60,18 +64,18 @@
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
 @font-face {
-    font-family: "Roboto-Medium";
-    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+    font-family: "Roboto-regular";
+    src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
 }
 @font-face {
-    font-family: "Roboto-Regular";
-    src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
+    font-family: "Roboto-Medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
 }
 @font-face {
     font-family: "Inter_18pt-Medium";
     src: url(../storage/fonts/Inter/static/Inter_18pt-Medium.ttf);
 }
 @font-face {
-    font-family: "Inter-semibold";
+    font-family: "Inter_18pt-SemiBold";
     src: url(../storage/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
 }

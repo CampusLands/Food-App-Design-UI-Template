@@ -156,4 +156,9 @@ main {
     font-size: 16px;
     width: 209px;
     height: 60px;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    text-decoration: none;
+    
 }
