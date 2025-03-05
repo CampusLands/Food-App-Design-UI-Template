@@ -64,7 +64,11 @@
     src: url(../storage/fonts/Roboto/static/Roboto-SemiBold.ttf);
 }
 @font-face {
-    font-family: "Roboto-regular";
+    font-family: "Roboto-Medium";
+    src: url(../storage/fonts/Roboto/static/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
     src: url(../storage/fonts/Roboto/static/Roboto-Regular.ttf);
 }
 @font-face {
